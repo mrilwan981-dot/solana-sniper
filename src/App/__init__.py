@@ -1,0 +1,1 @@
+"""Application layer: bootstrap, CLI and websocket ingest handlers."""
