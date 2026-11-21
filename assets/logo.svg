@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <!-- Background -->
+  <rect width="256" height="256" fill="#0B0E11"/>
+
+  <!-- Crosshair reticle - outer fractured frame -->
+  <!-- Top-left bracket -->
+  <path d="M48 80 L48 48 L80 48" fill="none" stroke="#E6EDF3" stroke-width="3"/>
+  <!-- Top-right bracket -->
+  <path d="M176 48 L208 48 L208 80" fill="none" stroke="#E6EDF3" stroke-width="3"/>
+  <!-- Bottom-left bracket -->
+  <path d="M48 176 L48 208 L80 208" fill="none" stroke="#E6EDF3" stroke-width="3"/>
+  <!-- Bottom-right bracket -->
+  <path d="M176 208 L208 208 L208 176" fill="none" stroke="#E6EDF3" stroke-width="3"/>
+
+  <!-- Inner reticle ring (fractured, angular - not a smooth circle) -->
+  <polygon points="128,68 164,80 176,116 164,152 128,164 92,152 80,116 92,80" fill="none" stroke="#9945FF" stroke-width="2.5" stroke-linejoin="miter"/>
+
+  <!-- Crosshair lines - gap in center to show target -->
+  <!-- Top line -->
+  <line x1="128" y1="48" x2="128" y2="96" stroke="#14F195" stroke-width="2.5"/>
+  <!-- Bottom line -->
+  <line x1="128" y1="160" x2="128" y2="208" stroke="#14F195" stroke-width="2.5"/>
+  <!-- Left line -->
+  <line x1="48" y1="128" x2="96" y2="128" stroke="#14F195" stroke-width="2.5"/>
+  <!-- Right line -->
+  <line x1="160" y1="128" x2="208" y2="128" stroke="#14F195" stroke-width="2.5"/>
+
+  <!-- Tick marks on axes -->
+  <line x1="128" y1="56" x2="128" y2="64" stroke="#E6EDF3" stroke-width="3"/>
+  <line x1="128" y1="192" x2="128" y2="200" stroke="#E6EDF3" stroke-width="3"/>
+  <line x1="56" y1="128" x2="64" y2="128" stroke="#E6EDF3" stroke-width="3"/>
+  <line x1="192" y1="128" x2="200" y2="128" stroke="#E6EDF3" stroke-width="3"/>
+
+  <!-- Target: candlestick body (small square/rect) -->
+  <rect x="122" y="112" width="12" height="24" fill="#14F195"/>
+
+  <!-- Candlestick wick above body -->
+  <line x1="128" y1="96" x2="128" y2="112" stroke="#14F195" stroke-width="3"/>
+
+  <!-- Candlestick wick below body -->
+  <line x1="128" y1="136" x2="128" y2="156" stroke="#14F195" stroke-width="3"/>
+
+  <!-- Lock-on corner accents inside reticle (sharp geometric) -->
+  <path d="M104 100 L110 100 L110 106" fill="none" stroke="#9945FF" stroke-width="2"/>
+  <path d="M152 100 L146 100 L146 106" fill="none" stroke="#9945FF" stroke-width="2"/>
+  <path d="M104 156 L110 156 L110 150" fill="none" stroke="#9945FF" stroke-width="2"/>
+  <path d="M152 156 L146 156 L146 150" fill="none" stroke="#9945FF" stroke-width="2"/>
+
+  <!-- Diagonal fracture lines (broken reticle aesthetic) -->
+  <line x1="80" y1="116" x2="68" y2="104" stroke="#9945FF" stroke-width="1.5"/>
+  <line x1="176" y1="116" x2="188" y2="104" stroke="#9945FF" stroke-width="1.5"/>
+  <line x1="80" y1="140" x2="68" y2="152" stroke="#9945FF" stroke-width="1.5"/>
+  <line x1="176" y1="140" x2="188" y2="152" stroke="#9945FF" stroke-width="1.5"/>
+
+  <!-- Velocity streak marks (top-right, off-center motion) -->
+  <line x1="184" y1="60" x2="200" y2="60" stroke="#14F195" stroke-width="1.5" opacity="0.7"/>
+  <line x1="188" y1="68" x2="204" y2="68" stroke="#14F195" stroke-width="1.5" opacity="0.5"/>
+  <line x1="192" y1="76" x2="204" y2="76" stroke="#14F195" stroke-width="1.5" opacity="0.3"/>
+
+  <!-- Small terminal cursor block (bottom-left) -->
+  <rect x="40" y="212" width="6" height="10" fill="#14F195"/>
+
+  <!-- Wordmark (small, bottom) -->
+  <text x="128" y="240" text-anchor="middle" font-family="monospace" font-size="11" fill="#E6EDF3" letter-spacing="3">SOLANA-SNIPER</text>
+</svg>
