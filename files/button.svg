@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="460" height="76" role="img" aria-label="Setup with PowerShell">
+  <defs>
+    <linearGradient id="psb36966" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#bc4c00"/>
+      <stop offset="100%" stop-color="#9a3412"/>
+    </linearGradient>
+    <linearGradient id="psb36966h" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.18"/>
+      <stop offset="55%" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect width="460" height="76" rx="16" fill="url(#psb36966)"/>
+  <rect x="1" y="1" width="458" height="74" rx="15" fill="none" stroke="#fb923c" stroke-opacity="0.45"/>
+  <rect x="1" y="1" width="458" height="36" rx="15" fill="url(#psb36966h)"/>
+  <rect width="101" height="76" rx="16" fill="#9a3412"/>
+  <rect x="85" y="0" width="18" height="76" fill="#9a3412"/>
+  <text x="50.5" y="43.0" fill="#ffffff" font-family="Consolas, Segoe UI, Arial, sans-serif" font-size="12" font-weight="700" text-anchor="middle">PS</text>
+  <text x="280.5" y="46.4" fill="#ffffff" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="600" text-anchor="middle">Setup with PowerShell</text>
+</svg>
