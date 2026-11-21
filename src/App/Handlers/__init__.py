@@ -1,0 +1,1 @@
+"""Ingest handlers: translate raw program logs into SniperSignal events."""
